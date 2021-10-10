@@ -2,6 +2,10 @@
 
 A collection of mcts models to test on 2-player games.
 
+## usage
+
+The specifc game needs to be filled in in the ``game`` folder. A move is obtained through the ``search`` method of the MCTS models.
+
 ## basic
 
 A Monte Carlo Tree Search generally involves 4 phases: selection, expansion, simulation and backpropogation.
